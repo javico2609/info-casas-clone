@@ -22,6 +22,7 @@ class SearchHomeBodyComponent extends StatelessWidget {
           width: MediaQuery.of(context).size.width,
           child: Container(
             color: Colors.white,
+            height: MediaQuery.of(context).size.height - 150,
             child: Padding(
               padding: EdgeInsets.all(20),
               child: body,

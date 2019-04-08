@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:info_casas_clone/src/pages/quick_rent.dart';
 import 'package:info_casas_clone/src/pages/sell.dart';
 import 'package:info_casas_clone/src/shared/shared.dart';
 import 'package:info_casas_clone/theme/theme.dart';
@@ -39,9 +40,9 @@ class HomePage extends StatelessWidget {
             SizedBox(height: 40),
             SearchButtonActionWidget(msg: "VENTA", route: SellPage()),
             SizedBox(height: 10),
-            SearchButtonActionWidget(msg: "ALQUILER ANUAL"),
+            SearchButtonActionWidget(msg: "ALQUILER ANUAL", route: SellPage()),
             SizedBox(height: 10),
-            SearchButtonActionWidget(msg: "ALQUILER TEMPORAL"),
+            SearchButtonActionWidget(msg: "ALQUILER TEMPORAL", route: QuickRent()),
             SizedBox(height: 10)
           ],
         ),

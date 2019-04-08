@@ -24,8 +24,8 @@ class SellPage extends StatelessWidget {
               style: TextStyle(fontSize: 18),
             ),
             SizedBox(height: 15),
-            Container(
-              height: 400,
+            Expanded(
+              //height: 400,
               child: ListView(
                 padding: EdgeInsets.only(left: 30, right: 30),
                 children: <Widget>[
