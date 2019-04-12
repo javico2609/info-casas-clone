@@ -10,7 +10,7 @@ final ThemeData appTheme = ThemeData(
   primarySwatch: Colors.blue,
   brightness: Brightness.light,
   primaryColor: primaryColor,
-  accentColor: Colors.white,
+  accentColor: primaryColor,
   scaffoldBackgroundColor: Colors.white,
   textSelectionHandleColor: Colors.black,
   textSelectionColor: Colors.black12,

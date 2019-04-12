@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:info_casas_clone/src/pages/search_result.dart';
 import 'package:info_casas_clone/src/pages/zones_selector.dart';
 import 'package:info_casas_clone/src/shared/shared.dart';
 import 'package:info_casas_clone/theme/theme.dart';
@@ -65,6 +66,7 @@ class _QuickRentState extends State<QuickRent> {
             SizedBox(height: 20),
             SearchButtonActionWidget(
               msg: "Continuar",
+              route: SearchResultPage(),
             )
           ],
         ),

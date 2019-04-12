@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:info_casas_clone/src/pages/quick_rent.dart';
 import 'package:info_casas_clone/src/shared/shared.dart';
 import 'package:info_casas_clone/theme/theme.dart';
 
@@ -46,6 +47,7 @@ class SellPage extends StatelessWidget {
             SizedBox(height: 20),
             SearchButtonActionWidget(
               msg: "Continuar",
+              route: QuickRent(),
             )
           ],
         ),
